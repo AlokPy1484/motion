@@ -1,4 +1,10 @@
+import ContactButton from "@/components/ContactButton";
+import HoverFillButton from "@/components/HoverFillButton";
 import Component1 from "@/components/Lession1";
+import PLexButton from "@/components/PLexButton";
+import RippleButton from "@/components/RippleButton";
+import SplitRevealButton from "@/components/SplitReveal";
+import StackButton from "@/components/StackButton";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,7 +17,13 @@ export default function Home() {
       backgroundSize: "8px 8px",
       backgroundRepeat: "repeat"
     }}>
-      <Component1/>
+      {/* <Component1/> */}
+      {/* <PLexButton/> */}
+      {/* <HoverFillButton/> */}
+      {/* <SplitRevealButton/> */}
+      {/* <RippleButton/> */}
+      {/* <ContactButton/> */}
+      <StackButton/>
     </div>
   ) 
 
