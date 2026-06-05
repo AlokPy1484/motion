@@ -18,7 +18,7 @@ export default function Component1() {
         }}
         whileTap={{
             scale: 0.99,
-            boxShadow: "0px 20px 50px rgba(8,112,184,1)"
+            boxShadow: "0px 20px 50px rgba(8,112,184,1)",
         }}
         transition={{
             duration: 0.05   ,

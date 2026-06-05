@@ -23,7 +23,13 @@ export default function Home() {
       {/* <SplitRevealButton/> */}
       {/* <RippleButton/> */}
       {/* <ContactButton/> */}
-      <StackButton/>
+
+      {}
+      <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
+      <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
+            <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
+                  <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
+                        <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
     </div>
   ) 
 
