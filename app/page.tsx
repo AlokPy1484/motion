@@ -1,6 +1,8 @@
 import ContactButton from "@/components/ContactButton";
 import HoverFillButton from "@/components/HoverFillButton";
 import Component1 from "@/components/Lession1";
+import Lession2 from "@/components/Lession2";
+import MotionButton from "@/components/motion-button";
 import PLexButton from "@/components/PLexButton";
 import RippleButton from "@/components/RippleButton";
 import SplitRevealButton from "@/components/SplitReveal";
@@ -11,7 +13,7 @@ export default function Home() {
   
   return(
 
-    <div className="flex justify-center items-center h-screen w-full bg-neutral-800"
+    <div className="flex justify-center items-center h-screen w-full bg-neutral-900"
     style={{
       backgroundImage: `radial-gradient(circle at 0.5px  0.5px, rgba(6,182,212,0.2) 0.5px, transparent 0)`,
       backgroundSize: "8px 8px",
@@ -23,13 +25,13 @@ export default function Home() {
       {/* <SplitRevealButton/> */}
       {/* <RippleButton/> */}
       {/* <ContactButton/> */}
+      <MotionButton/>
 
-      {}
-      <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
-      <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
-            <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
-                  <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
-                        <StackButton logoLink="https://thesvg.org/icons/nextdotjs/default.svg" name="Next.js"/>
+      {/* <Lession2/> */}
+
+
+
+
     </div>
   ) 
 

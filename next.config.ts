@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {protocol: "https",
         hostname: "icon.icepanel.io"
+      },
+      {protocol: "https",
+        hostname: "devwithalok.com"
       }
     ]
     }
