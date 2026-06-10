@@ -51,7 +51,20 @@ export default function MotionButton(){
     return(
 
    
+        <div className="group relative flex justify-center items-center w-43 h-10 ">
+{/* Top Left */}
+<span className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white opacity-0 group-hover:translate-x-[-6px] group-hover:translate-y-[-2px] group-hover:opacity-100 transition-all ease-in-out duration-300" />
 
+{/* Top Right */}
+<span className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white opacity-0 group-hover:translate-x-[6px] group-hover:translate-y-[-2px] group-hover:opacity-100 transition-all ease-in-out duration-300" />
+
+{/* Bottom Left */}
+<span className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white opacity-0 group-hover:translate-x-[-6px] group-hover:translate-y-[2px] group-hover:opacity-100 transition-all ease-in-out duration-300" />
+
+{/* Bottom Right */}
+<span className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white opacity-0 group-hover:translate-x-[6px] group-hover:translate-y-[2px] group-hover:opacity-100 transition-all ease-in-out duration-300" />
+
+            
         <motion.div
         variants={parentVarient}
         initial="initial"
@@ -62,7 +75,7 @@ export default function MotionButton(){
             }}
 
         
-        className="group relative flex w-30 h-8 justify-center items-center bg-black text-sm  text-white overflow-hidden"
+        className=" relative flex w-40 h-8 justify-center items-center bg-black text-sm  text-white overflow-hidden"
           style={{
         backgroundImage:
             "repeating-linear-gradient(135deg, rgba(255,255,255,0.2) 0, rgba(255,255,255,0.2) 1px, transparent 1px, transparent 8px) ",
@@ -82,9 +95,10 @@ export default function MotionButton(){
 
             <motion.div 
             variants={textVarient}
-            className="relative z-10 text-xl">Alok</motion.div>
+            className="relative z-10 text-xl">Hover Over Me</motion.div>
 
         </motion.div>
+        </div>
 
 
     )
